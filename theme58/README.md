@@ -1,6 +1,6 @@
 # Theme 58: Infinity
 
-First published on Feb 06, 2017
+First published on Feb 06, 2017  
 Last updated: Aug 22, 2018
 
 ## Static Preview
