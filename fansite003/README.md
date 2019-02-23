@@ -47,5 +47,5 @@ The documentation of how to customize this theme can be found [here](https://shu
 * [style-my-tooltips](http://manos.malihu.gr/style-my-tooltips-jquery-plugin/) by malihu
 * [imgLiquid](https://github.com/karacas/imgLiquid) by karacas
 * [Sticky Sidebar](https://abouolia.github.io/sticky-sidebar/) by Ahmed Bouhuolia
-* [Extended photoset](https://github.com/pixelunion/Extended-Tumblr-Photoset) by PixelUnion, modified by bychloethemes
+* [Extended photoset](https://github.com/pixelunion/Extended-Tumblr-Photoset) by PixelUnion, modified by [bychloethemes](http://bychloethemes.tumblr.com/post/155956945114/modified-pxu-photoset-script-modified-by)
 * [Video width fix](http://shythemes.tumblr.com/post/123250129923/tutorial-resizing-videos) by shythemes
