@@ -5,7 +5,7 @@ Last updated: Aug 22, 2018
 
 ## Static Previews
 
-The demo of the theme can be found [here]https://shupreviews.tumblr.com/theme59
+The demo of the theme can be found [here](https://shupreviews.tumblr.com/theme59)
 
 ## Features
 
