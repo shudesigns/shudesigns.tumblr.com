@@ -1,6 +1,6 @@
 # Fansite 002
 
-First published on March 07, 2017
+First published on March 07, 2017  
 Last updated: Aug 22, 2018
 
 ## Static Preview
