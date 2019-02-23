@@ -1,6 +1,6 @@
 # Theme 57: Olivia
 
-First published on Nov 9, 2016
+First published on Nov 9, 2016  
 Last updated: Aug 22, 2018
 
 ## Static Preview
