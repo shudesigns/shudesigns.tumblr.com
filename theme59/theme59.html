@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <!--
+   
+    >> THEMES OF ROXIE
+   
+       Theme 59 by roxiestheme
+       roxiestheme.tumblr.com
+       2017 ⓒ All Rights Reserved.
+       
+    ---
+       
+    >> TERMS OF USE
+   
+       Do NOT remove the credit
+       Do NOT use as a base code
+       Do NOT republish
+       Do NOT claim as your own        
+             
+    ---
+   
+    >> SPECIAL THANKS
+       
+       Fonts by Google Fonts
+       Icons by Linearicons
+       Extended photoset by PixelUnion
+       Video width fix by shythemes
+       Custom like button by cubthemes
+   
+    -->
+   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+   
+    <!-- THEME OPTIONS -->
+    <meta name="color:Background Color" content="#f6f6f6" />
+    <meta name="color:Post Background Color" content="#ffffff" />
+    <meta name="color:Navigation Color" content="#fafafa" />
+    <meta name="color:Header Background Color" content="#ffffff" />
+    <meta name="color:Border Color" content="#eeeeee" />
+    <meta name="color:Text Color" content="#888888" />
+    <meta name="color:Link Color" content="#666666" />
+    <meta name="color:Accent Color" content="#d1e4a8" />
+    
+    <meta name="image:Sidebar" content="" />
+    <meta name="image:Header" content="" />
+    
+    <meta name="select:Font Family" content="'Karla', sans-serif" title="Karla">
+    <meta name="select:Font Family" content="'Open Sans', sans-serif" title="Open Sans">
+    <meta name="select:Font Family" content="'Roboto', sans-serif" title="Roboto">
+    <meta name="select:Font Family" content="'Lato', sans-serif" title="Lato">
+    
+    <meta name="select:Font Size" content="10px" title="10px">
+    <meta name="select:Font Size" content="9px" title="9px">
+    <meta name="select:Font Size" content="11px" title="11px">
+    <meta name="select:Font Size" content="12px" title="12px">
+    
+    <meta name="select:Sidebar Width" content="250px" title="250px">
+    <meta name="select:Sidebar Width" content="300px" title="300px">
+    <meta name="select:Sidebar Width" content="350px" title="350px">
+    <meta name="select:Sidebar Width" content="400px" title="400px">
+    
+    <meta name="select:Post Width" content="540px" title="540px">
+    <meta name="select:Post Width" content="400px" title="400px">
+    <meta name="select:Post Width" content="500px" title="500px">
+    
+    <meta name="text:Sidebar Title" content="" />
+    <meta name="text:Sidebar Subtitle" content="" />
+    
+    <meta name="text:Link 1 Title" content="index" />
+    <meta name="text:Link 1 Icon" content="home" />
+    <meta name="text:Link 1 Url" content="/" />
+    <meta name="text:Link 2 Title" content="message" />
+    <meta name="text:Link 2 Icon" content="envelope" />
+    <meta name="text:Link 2 Url" content="/ask" />
+    <meta name="text:Link 3 Title" content="" />
+    <meta name="text:Link 3 Icon" content="user" />
+    <meta name="text:Link 3 Url" content="" />
+    <meta name="text:Link 4 Title" content="" />
+    <meta name="text:Link 4 Icon" content="earth" />
+    <meta name="text:Link 4 Url" content="" />
+    <meta name="text:Link 5 Title" content="" />
+    <meta name="text:Link 5 Icon" content="picture" />
+    <meta name="text:Link 5 Url" content="" />
+    <meta name="text:Link 6 Title" content="" />
+    <meta name="text:Link 6 Icon" content="inbox" />
+    <meta name="text:Link 6 Url" content="" />
+
+ 
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="alternate" type="application/rss+xml" href="{RSS}" />
+    
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="http://static.tumblr.com/sas2ex2/HFinqriui/photoset.css" /> <!-- EXTENDED PHOTOSET BY PIXELUNION -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Karla:400,700|Lato:400,700|Open+Sans:400,700|Roboto:400,700" /> <!-- GOOGLE FONT -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" /> <!-- LINEARICONS -->
+
+    <!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script> <!-- TOOLTIP -->
+    <script src="http://static.tumblr.com/qudkd6d/Az6nkemqr/pxuphotoset.min.js"></script> <!-- EXTENDED PHOTOSET BY PIXELUNION -->
+    <script src ="http://static.tumblr.com/fwgzvyf/Oj1o08f6h/shythemes.vr.js"></script> <!-- FIX VIDEO WIDTH BY SHYTHEMES -->
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script><!-- LINEARICONS -->
+
+<style type="text/css">
+
+/*----- BASIC ----*/
+ 
+html, body {
+    font-family: {select:Font Family};
+    background: {color:Background Color};
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ 
+/* LINKS BASIC */
+a{
+    color: {color:Link Color};
+}
+a:hover{
+    color: {color:Accent Color};
+}
+a, a:hover, a:active{
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+ 
+/* LIST BASIC */
+ul, menu, dir{
+    margin: 0px;
+    padding: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+ 
+/* TOOLTIPS */
+#s-m-t-tooltip{
+    position: absolute;
+    z-index: 9999999;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: block;
+    padding: 5px 8px;
+    background-color: {color:Text Color};
+    font-family: {select:Font Family};
+    font-size: calc({select:Font Size} - 2px);
+    color: {color:Post Background Color};
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+/* SCROLL BAR */
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    border: 1px solid {color:Border Color};
+    border-right: none;
+    background-color: {color:Navigation Color};
+}
+::-webkit-scrollbar {
+    width: 5px;
+    border-left: 1px solid {color:Border Color};
+    border-right: 4px solid {color:Post Background Color};
+    background-color: {color:Post Background Color};
+}
+ 
+/* SELECTION */
+::-moz-selection{
+    color: {color:Post Background Color};
+    background-color: {color:Text Color};
+}
+::selection{
+    color: {color:Post Background Color};
+    background-color: {color:Text Color};
+}
+
+/* TUMBLR CONTROLS */
+.tmblr-iframe-compact .tmblr-iframe--unified-controls {
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    vertical-align: middle;
+    white-space: nowrap !important;
+    opacity: 0.2;
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+    filter: invert(100%);
+    -webkit-transform: scale(0.6);
+    -webkit-transform-origin: top right;
+    -moz-transform: scale(0.6);
+    -moz-transform-origin: top right;
+    -o-transform: scale(0.6);
+    -o-transform-origin: top right;
+    -ms-transform: scale(0.6);
+    -ms-transform-origin: top right;
+    transform: scale(0.6);
+    transform-origin: top right;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+/*----- MAIN -----*/
+
+#main{
+    position: relative;
+    overflow: hidden;
+    width: calc(100vw - 110px);
+    padding-left: 110px;
+    display: block;
+    background-color: {color:Background Color};
+}
+#main .padding-left{
+    background-color: {color:Background Color};
+    float: left;
+    display: block;
+    max-width: calc(100vw - {select:Post Width} - 62px - 81px);
+    overflow: hidden;
+    height: 100vh;
+}
+#main .padding-left img{
+    opacity: 0;
+    display: block;
+    height: 100vh;
+    width: auto;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+/*----- SIDEBAR -----*/
+
+aside#sidebar{
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+}
+
+/* SIDEBAR IMAGE */
+aside#sidebar article.side-img{
+    float: left;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: auto;
+    max-width: calc(100vw - {select:Post Width} - 62px - 81px);
+    overflow: hidden;
+    background-image: url('{image:Sidebar}');
+    background-size: cover;
+    background-position: center;
+}
+aside#sidebar article.side-img img{
+    display: block;
+    height: 100vh;
+    width: auto;
+    opacity: 0;
+}
+
+/* SIDEBAR INFO */
+aside#sidebar article.side-info{
+    background-color: {color:Navigation Color};
+    position: relative;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    border-right: 1px solid {color:Border Color};
+}
+
+/* SIDEBAR TITLE */
+aside#sidebar article.side-info h1{
+    position: absolute;
+    width: 100vh;
+    left: 50px;
+    top: 20px;
+    color: {color:Text Color};
+    font-family: {select:Font Family};
+    text-align: left;
+    margin: 0px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    z-index: 999;
+    overflow: hidden;
+}
+aside#sidebar article.side-info h1 span{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: block;
+}
+aside#sidebar article.side-info h1 span.title{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+aside#sidebar article.side-info h1 span.line{
+    height: 1px;
+    width: 70px;
+    margin: 9.5px 13px;
+    opacity: 0.3;
+    background-color: {color:Text Color};
+}
+aside#sidebar article.side-info h1 span.subtitle{
+    position: absolute;
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+/* SIDE LINKS */
+aside#sidebar nav.side-links{
+    position: absolute;
+    z-index: 9999;
+    width: 80px;
+    right: 0px;
+    bottom: 15px;
+    display: block;
+    margin-top: 10px;
+}
+aside#sidebar nav.side-links section.nav a{
+    display: block;
+    font-family: 'Linearicons-Free';
+    cursor: help;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    margin: 5px auto;
+    border-radius: 3px;
+    border: 1px solid {color:Border Color};
+    background-color: {color:Post Background Color};
+    color: #ccc;
+}
+aside#sidebar nav.side-links section.nav a:hover{
+    background-color: {color:Accent Color};
+    border: 1px solid {color:Accent Color};
+    color: {color:Post Background Color};
+}
+
+/* PAGINATION */
+aside#sidebar section.pagination{
+    display: inline-block;
+    max-width: 40px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 50%;
+    text-align: center;
+    border: 1px solid {color:Border Color};
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+aside#sidebar section.pagination a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 22px;
+    cursor: help;
+    text-align: center;
+    text-transform: uppercase;
+    border-left: 1px solid {color:Border Color};
+    border-right: 1px solid {color:Border Color};
+    color: {color:Text Color};
+    background-color: {color:Post Background Color};
+    color: #ccc;
+    margin: 0px -3px;
+}
+aside#sidebar section.pagination a:hover{
+    background-color: {color:Accent Color};
+    color: {color:Post Background Color};
+    border: none;
+    border-left: 1px solid {color:Accent Color};
+    border-right: 1px solid {color:Accent Color};
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+/*----- POST CONTAINER -----*/
+ 
+#posts-container{
+    position: relative;
+    margin: 30px 0px;
+    float: left;
+    width: calc({select:Post Width} + 2px);
+}
+
+/* DESC*/
+header.desc{
+    margin: 0px 0px 30px 0px;
+    width: {select:Post Width};
+    overflow: hidden;
+    border: 1px solid {color:Border Color};
+    border-radius: 3px;
+}
+header.desc .desc-header{
+    width: 100%;
+    min-height: 100px;
+    background-color: {color:Accent Color};
+}
+header.desc .desc-header img{
+    display: block;
+    width: 100%;
+}
+header.desc .desc-avatar{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 50%;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    z-index: 15;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+header.desc .desc-avatar img{
+    border-radius: 50%;
+    border: 5px solid {color:Post Background Color};
+}
+header.desc .desc-content{
+    position: relative;
+    width: calc(100% - 40px);
+    padding: 40px 20px 20px;
+    background-color: {color:Post Background Color};
+    font-family: {select:Font Family};
+    font-weight: 400;
+    font-size: {select:Font Size};
+    color:{color:Text Color};
+    text-align: center;
+    line-height: 150%;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+/* POSTS */
+#posts-container{
+    margin: 30px 0px 0px;
+}
+ 
+/* SINGLE POST */
+article.post-wrapper{
+    overflow: hidden;
+    width: {select:Post Width};
+    border: 1px solid {color:Border Color};
+    border-bottom: none;
+    border-radius: 3px;
+    margin: 0px auto 15px;
+}
+article.post-wrapper:last-child{
+    margin: 0px;
+}
+ 
+/* POST CONTENT BASIC */
+section.post-content{
+    background-color: {color:Post Background Color};
+    font-family: {select:Font Family};
+    font-weight: 400;
+    font-size: {select:Font Size};
+    color:{color:Text Color};
+    width: {select:Post Width};
+    text-align: justify;
+    line-height: 150%;
+}
+ 
+/* POST MEDIA */
+section.post-content .post-media{
+    width: {select:Post Width};
+    border: 1px solid {color:Border Color};
+    border-top: none;
+    overflow: hidden;
+    display: block;
+}
+section.post-content .post-media .width_fix iframe{
+    width: calc({select:Post Width} + 2px) !important;
+    margin: 0px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+section.post-content .post-media iframe.tumblr_audio_player{
+    height: 85px !important;
+    margin-bottom: -5px;
+}
+
+/* PHOTO SET FIX */
+.photo-slideshow .photo-data { padding-bottom: 4px; }
+.photo-slideshow .pxu-photo { padding-bottom: 1px; }
+.photo-slideshow .pxu-photo img { margin-left: 0px !important; }
+.photo-slideshow .count-1 { padding-bottom: 2px; } 
+.photo-slideshow .count-1 .pxu-photo { padding-bottom: 0; margin-bottom: -2px; }
+.photo-slideshow .count-1 .pxu-photo:last-child { margin-bottom: 0px; }
+.photo-slideshow .count-2 { width: calc(50% - 2px); }
+.photo-slideshow .count-3 { width: calc(100%/3 - 3px); }
+.photo-slideshow .count-3:nth-child(2n+0) { width: calc(100%/3 - 2px); }
+.photo-slideshow .count-2:nth-child(2n+0), .photo-slideshow .count-3:nth-child(2n+0), .photo-slideshow .count-3:nth-child(3n+0) { margin-left: 4px; }
+ 
+/* POST BODY */    
+section.post-content .post-body{
+    width: calc({select:Post Width} - 40px);
+    border-bottom: 1px solid {color:Border Color};
+    padding: 20px;
+}
+section.post-content .post-body a{
+    background-image: linear-gradient(180deg,rgba(68,68,68,0) 50%,rgba(68,68,68,.1) 0);
+    text-decoration: none;
+    background-repeat: repeat-x;
+    background-size: 1em 2px;
+    background-position: 0 1.15em;
+    padding-bottom: 2px;
+}
+section.post-content .post-body a:hover{
+    color: {color:Text Color};
+}
+ 
+/* POST IMAGES */
+section.post-content .post-body img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+/* FIX IMAGE FIGURE */     
+section.post-content .post-body figure{
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+section.post-content .post-body figure.tumblr-full img{
+    width: {select:Post Width};
+}
+ 
+/* POST TITLE */
+section.post-content h1.post-title{
+    font-family: {select:Font Family};
+    font-weight: 400;
+    font-size: calc({select:Font Size} + 18px);;
+    letter-spacing: 0px;
+    text-align: justify;
+    line-height: 120%;
+    margin: -10px 0px 0px 0px;
+    color: {color:Text Color};
+}
+ 
+/* BLOCKQUOTE */
+section.post-content blockquote{
+    width: calc(100% - 11px);
+    max-width: calc(100% - 11px);
+    margin-left: 0px;
+    padding-left: 10px;
+    border-left: 1px solid {color:Accent Color};
+}
+ 
+/* TEXT STYLES */
+section.post-content p{ margin-top: 3px; }
+section.post-content p:first-child{ margin-top: 0px; }
+section.post-content big{ font-size: calc({select:Font Size} + 3px); }
+section.post-content small{ font-size: {select:Font Size}; }
+ 
+/* HIGHLIGHT */
+section.post-content h2{
+    font-family: {select:Font Family};
+    font-weight: 400;
+    font-size: calc({select:Font Size} + 5px);
+    color: {color:Accent Color};
+    margin-bottom: 15px;
+}
+ 
+/* LIST STYLES */
+section.post-content .post-body ol{
+    margin: 0px 0px 10px 5px;
+}
+section.post-content .post-body ul{
+    list-style-type: none;
+    padding-left: 15px;
+    margin: 0px 0px 10px 5px;
+}
+section.post-content .post-body ul li:before{
+    display: inline-block;
+    width: 15px;
+    margin-left: -15px;
+    font-family: 'Linearicons-Free';
+    font-size: calc({select:Font Size} - 3px);
+    content: '\e870';
+}
+ 
+/* CAPTION */
+section.post-content .caption{
+    margin-bottom: -10px;
+}
+section.post-content .caption.has-title{
+    margin-top: 10px;
+}
+ 
+/* LINK POSTS */
+section.post-content .link-button{
+	word-break: break-word;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	border-bottom: 1px solid {color:Border Color};
+}
+section.post-content .link-button .thumbnail img{
+    display: block;
+    margin: 0px;
+}   
+section.post-content .link-button .thumbnail:after{
+    background-image: linear-gradient(rgba(0,0,0,.439216),transparent 50%);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section.post-content .info-container{
+	padding: 20px 20px 0;
+	overflow: hidden;
+}
+section.post-content .publisher-container{
+	margin-bottom: 4px;
+	display: block;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 700;
+	word-break: break-all;
+}
+section.post-content .publisher-container .publisher{
+	line-height: 16px;
+	font-size: 7px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+	margin: 0px;
+}
+section.post-content .publisher-container.if-thumbnail{
+	position:absolute;
+	top: 15px;
+	left: 20px;
+	right: 20px;
+}
+section.post-content .publisher-container.if-thumbnail .publisher{
+    color: {color:Post Background Color};
+}
+section.post-content .info-container{
+	padding: 15px 20px;
+	overflow: hidden;
+	background-color: {color:Navigation Color};
+	color: {color:Text Color};
+}
+section.post-content .info-container .title{
+    font-family: {select:Font Family};
+    display: block;
+    font-size: calc({select:Font Size} + 8px);
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: calc({select:Font Size} + 10px);
+}
+section.post-content .info-container .title:after{
+    display: inline-block;
+    font-size: calc({select:Font Size} + 3px);
+    vertical-align: middle;
+    margin-left: 5px;
+    white-space: nowrap;
+    font-family: 'Linearicons-Free';
+    font-weight: bold;
+    content: "\e876";
+}
+section.post-content .info-container .excerpt{
+    display: block;
+    margin-top: 5px;
+    font-size: {select:Font Size};
+    line-height: calc({select:Font Size} + 3px);
+}
+section.post-content .info-container .author{
+    margin-top: 5px;
+    display: block;
+    font-size: calc({select:Font Size} - 2px);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: calc({select:Font Size} + 2px);
+    opacity: 0.5;
+}
+ 
+/* QUOTES */
+section.post-content .quotes{
+    font-weight: 400;
+    font-size: calc({select:Font Size} + 15px);
+    letter-spacing: -1px;
+    line-height: 130%;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    color: {color:Text Color};
+}
+section.post-content .icon-quote-left,
+section.post-content .icon-quote-right{
+    display: inline-block;
+    width: calc({select:Font Size} + 10px);
+    height: calc({select:Font Size} + 10px);
+    fill: {color:Text Color};
+}
+section.post-content .icon-quote-left{
+    margin-right: 8px;
+}
+section.post-content .icon-quote-right{
+    margin-left: 8px;
+}
+ 
+/* ANSWERS */
+section.post-content .asker{
+    font-size: calc({select:Font Size} - 3px);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 110%;
+    margin-top: 2px;
+    color: {color:Text Color};
+    letter-spacing: 2px;
+}
+section.post-content .asker span{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc({select:Font Size} + 2px);
+    line-height: 110%;
+    letter-spacing: 1px;
+}
+section.post-content .asker a{
+    background-image: none;
+    color: {color:Link Color};
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: calc({select:Font Size} + 2px);
+    line-height: 110%;
+    letter-spacing: 1px;
+}
+section.post-content .asker a:hover{
+    color: {color:Text Color};
+}
+section.post-content .askimg img{
+    width: calc({select:Font Size} + 15px);
+    height: calc({select:Font Size} + 15px);
+    margin-right: 10px;
+    border-radius: 50%;
+    float: left;
+}
+section.post-content .question{
+    width: calc({select:Post Width} - {select:Font Size}/2 - 68px);
+    margin-top: -5px;
+    margin-left: calc({select:Font Size}/2 + 7px);
+    margin-bottom: 15px;
+    padding: 20px 0px 0px 20px;
+    border-left: 1px solid {color:Border Color};
+}
+ 
+/* CHATS */
+section.post-content ul.chat{
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    border: 1px solid {color:Border Color};
+    border-bottom: none;
+    text-align: left;
+}
+section.post-content ul.chat{
+    list-style: none !important;
+    margin-left: 0px !important;
+    padding: 0px;
+}
+section.post-content ul.chat.has-title{
+    margin-top: 10px !important;
+}
+section.post-content ul.chat li{
+    display: block;
+    min-height: 25px;
+    line-height: 25px;
+    font-size: calc({select:Font Size} + 1px);
+    font-weight: 400 !important;
+    letter-spacing: 1px;
+    color: {color:Text Color};
+    margin: 0px;
+    padding: 0px 10px;
+    border-bottom: 1px solid {color:Border Color};
+}
+section.post-content ul.chat li:before{
+    display: none;
+}
+section.post-content span.label{
+    display: block;
+    float: left;
+    height: 25px;
+    border-right: 1px solid {color:Border Color};
+    border-bottom: 1px solid {color:Border Color};
+    background-color: {color:Post Background Color};
+    font-size: calc({select:Font Size} - 1px);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing :2px;
+    margin-left: -10px;
+    margin-right: 5px;
+    padding: 0px 3px 0px 10px;
+    color: {color:Text Color};
+}
+section.post-content span.label:after{
+    content: '';
+    position: absolute;
+    float: right;
+    margin-left: -5px;
+    width: 4px;
+    height: 25px;
+    background-color: {color:Post Background Color};
+}
+ 
+/* POSTNOTES */
+article.postnotes{
+    width: calc({select:Post Width} - 40px);
+    padding: 0px 20px;
+    margin:30px 0px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid {color:Border Color};
+    color: {color:Text Color};
+    background: {color:Post Background Color};
+    font-size: calc({select:Font Size} - 2px);
+    text-align: justify;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+article.postnotes ol.notes{
+    padding: 0px;
+    margin: 20px 0px;
+    list-style-type: none;
+}
+article.postnotes ol.notes li.note{
+    padding: 10px 0px;
+}
+article.postnotes ol.notes li.note img.avatar{
+    vertical-align: -4px;
+    margin-right: 10px;
+    width: calc({select:Font Size} + 6px);
+    height: calc({select:Font Size} + 6px);
+    border-radius: 50%;
+}
+       
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+ 
+/*----- PERMALINK -----*/
+       
+header.post-permalink{
+    position: relative;
+    display: block;
+    z-index: 999;
+    background-color: {color:Navigation Color};
+    width: calc({select:Post Width} - 40px);
+    height: 40px;
+    padding: 0px 20px;
+    border-bottom: 1px solid {color:Border Color};
+    overflow: hidden;
+    text-align: left;
+    font-size: calc({select:Font Size} - 1px);
+    letter-spacing: 1px;
+}
+ 
+/* PERMALINK LINKS */
+header.post-permalink .postinfo a{
+    font-family: {select:Font Family};
+    font-weight: 700;
+    display: block;
+    float: left;
+    text-transform: uppercase !important;
+    color: {color:Text Color};
+    text-align: left;
+    line-height :40px;
+}
+header.post-permalink .postinfo a:before{
+    font-family: 'Linearicons-Free';
+    margin-right: 5px;
+    color: {color:Accent Color};
+}
+header.post-permalink .postinfo a:hover{
+    color: {color:Link Color};
+}
+header.post-permalink .postinfo a:after{
+    content: "";
+    position: relative;
+    width: 1px;
+    height: calc({select:Font Size} - 2px);
+    display: block;
+    float: right;
+    background-color:{color:Border Color};
+    margin-top: calc(21px - {select:Font Size}/2);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header.post-permalink .postinfo a:last-child:after{
+    display: none;
+}
+header.post-permalink .postinfo a.notes{
+    font-size: calc({select:Font Size} + 1px);
+}
+ 
+/* LIKE & REBLOG BUTTONS */
+header.post-permalink ul.like_and_reblog_buttons{
+    width: 100px;
+    margin-top: 12px !important;
+    list-style: none;
+    text-align: right;
+    display: block;
+    float: right;
+}
+header.post-permalink ul.like_and_reblog_buttons li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px 0px 5px;
+    cursor: pointer !important;
+}
+header.post-permalink ul.like_and_reblog_buttons{    
+    margin-left: -38px;
+    margin-bottom: -2px;
+}
+header.post-permalink ul.reblog-icons{    
+    margin-left: -38px;
+}
+ 
+/* CUSTOM LIKE BUTTONS | BY DEMIREV.CUBTHEMES.COM  */
+header.post-permalink .like{
+    position: relative;
+    cursor: pointer !important;
+}
+header.post-permalink .lnr-sync,
+header.post-permalink .lnr-heart{
+    fill: {color:Accent Color};
+}
+header.post-permalink .lnr:hover{
+    fill: {color:Text Color};
+}
+header.post-permalink .like .like_button{
+    position: absolute;
+    top: -1.5px;
+    opacity: 0;
+}
+header.post-permalink .like .like_button.liked {
+    opacity: 1;
+}
+header.post-permalink .lnr{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+ 
+/* TAGS */
+footer.post-tags{
+    position: relative;
+    z-index: 999;
+    width: calc({select:Post Width} - 40px);
+    background-color: {color:Navigation Color};
+    border-bottom: 1px solid {color:Border Color};
+    text-align:left;
+    line-height: 100%;
+    padding: 15px 20px;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: calc({select:Font Size} - 2px);
+}
+footer.post-tags a{
+    display: inline-block;
+    color: {color:Text Color};
+    margin-left: 10px;
+}
+footer.post-tags a:hover{
+    color: {color:Link Color};
+}
+footer.post-tags span{
+    font-family: {select:Font Family};
+    color: {color:Text Color};
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: calc({select:Font Size} - 3px);
+    line-height: calc({select:Font Size} - 3px);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: -5px;
+}
+footer.post-tags span:before {
+    font-family: 'Linearicons-Free';
+    font-size: {select:Font Size};
+    color: {color:Accent Color};
+    line-height: calc({select:Font Size} - 5px);
+    margin-right: 5px;
+    display :block;
+    float: left;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+/*  DO NOT REMOVE!  */
+/*----- CREDIT -----*/
+
+footer#blog-footer{
+    position: relative;
+    bottom: 0px;
+    display: block;
+    width: {select:Post Width};
+    height: 40px;
+    background-color: {color:Navigation Color};
+    border: 1px solid {color:Border Color};
+    border-bottom: none;
+    text-align: center;
+    font-family: {select:Font Family};
+    font-size: calc({select:Font Size} - 2px);
+    font-weight: 400;
+    color: {color:Text Color};
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+
+/*---------------------------------------*/
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+{CustomCSS}
+
+</style><!-- END OF CSS STYLE-->
+
+<!-- JAVASCRIPT -->
+<script>
+    $(document).ready(function() {
+        
+        $('iframe.tumblr_audio_player').load( function() {
+            $('iframe.tumblr_audio_player').contents().find("head")
+                .append($("<style type='text/css'> .audio-player{background:{color:Accent Color}; color:#fff} .audio-player .audio-info div{color:#fff !important}</style>"));
+        });
+
+        $('.photo-slideshow').pxuPhotoset({
+            lightbox: true,
+            gutter: '2px',
+            borderRadius: '0px',        
+            photoset: '.photo-slideshow',
+            photoWrap: '.photo-data',
+            photo: '.pxu-photo'      
+        });
+
+        $("[title]").style_my_tooltips({
+            tip_follows_cursor:true,
+            tip_delay_time:100,
+            tip_fade_speed:300
+        });
+         
+    });
+</script>
+
+</head>
+
+<body>
+
+    <aside id="sidebar">
+        {block:ifSidebarImage}<article class="side-img"><img src="{image:Sidebar}" /></article>{/block:ifSidebarImage}
+        <article class="side-info">
+            <h1>
+                {block:ifSidebarTitle}<span class="title">{text:Sidebar Title}</span>{/block:ifSidebarTitle}{block:ifNotSidebarTitle}<span class="title">{Title}</span>{/block:ifNotSidebarTitle}
+                <span class="line"></span>
+                {block:ifSidebarSubtitle}<span class="subtitle">{text:Sidebar Subtitle}</span>{/block:ifSidebarSubtitle}{block:ifNotSidebarSubtitle}<span class="subtitle">{Name}.tumblr.com</span>{/block:ifNotSidebarSubtitle}
+            </h1>
+            <nav class="side-links">
+                <section class="nav">
+                    <a class="lnr lnr-{text:Link 1 Icon}" href="{text:Link 1 Url}" title="{text:Link 1 Title}"></a>
+                    <a class="lnr lnr-{text:Link 2 Icon}" href="{text:Link 2 Url}" title="{text:Link 2 Title}"></a>
+                    {block:Iflink3Title}<a class="lnr lnr-{text:Link 3 Icon}" href="{text:Link 3 Url}" title="{text:Link 3 Title}"></a>{/block:IfLink3Title}
+                    {block:IfLink4Title}<a class="lnr lnr-{text:LInk 4 Icon}" href="{text:Link 4 Url}" title="{text:Link 4 Title}"></a>{/block:IfLink4Title}
+                    {block:IfLink5Title}<a class="lnr lnr-{text:Link 5 Icon}" href="{text:Link 5 Url}" title="{text:Link 5 Title}"></a>{/block:IfLink5Title}
+                    {block:IfLink6Title}<a class="lnr lnr-{text:Link 6 Icon}" href="{text:Link 6 Url}" title="{text:Link 6 Title}"></a>{/block:IfLink6Title}
+                </section>
+                {block:Pagination}<section class="pagination">
+                    {block:PreviousPage}<a class="lnr lnr-chevron-left" href="{PreviousPage}"></a>{block:PreviousPage}
+                    {block:NextPage}<a class="lnr lnr-chevron-right" href="{NextPage}"></a>{block:NextPage}
+                </section>{/block:Pagination}
+            </nav>
+        </article>
+    </aside>
+
+    <!--------------------->
+    <!--------------------->
+    <!--------------------->
+ 
+    <!-- START OF MAIN CONTENT -->
+    <div id="main">
+    
+        {block:ifSidebarImage}<div class="padding-left"><img src="{image:Sidebar}" /></div>{/block:ifSidebarImage}
+ 
+        <!-- POSTS CONTAINER -->
+        <div id="posts-container">
+        
+            <!-- DESCRIPTION -->
+            <header class="desc">
+                <div class="desc-header">{block:ifHeaderImage}<img src="{image:Header}" />{/block:ifHeaderImage}</div>
+                <div class="desc-avatar"><img src="{PortraitURL-64}" /></div>
+                <div class="desc-content">{Description}</div>
+            </header>
+       
+            <!-- START OF A POST -->
+            {block:Posts}<article class="post-wrapper">
+           
+                <!-- PERMALINK -->
+                {block:Date}<header class="post-permalink">
+                    <div class="postinfo">
+                        <a class="lnr lnr-star" href="{Permalink}" title="notes">{NoteCount}</a>
+                        <a class="lnr lnr-clock" href="/day/{Year}/{MonthNumberWithZero}/{DayOfMonthWithZero}/" title="date">{ShortMonth} {DayOfMonthWithZero} {Year}</a>
+                        {block:RebloggedFrom}<a class="lnr lnr-location" href="{ReblogRootURL}" target="_blank" title="{ReblogRootName}">src</a><a class="lnr lnr-enter" href="{ReblogParentURL}" target="_blank" title="{ReblogParentName}">via</a>{/block:RebloggedFrom}
+                    </div>
+                    <ul class="like_and_reblog_buttons">
+                        <li class="reblog-button" title="reblog"><a href="{ReblogURL}" target="_blank"><svg class="lnr lnr-sync" width="13px" height="13px"><use xlink:href="#lnr-sync"></use></svg></a></li>
+                        <li class="like" title="like">{LikeButton size="11"}<svg class="lnr lnr-heart" width="13px" height="13px"><use xlink:href="#lnr-heart"></use></svg></li>
+                    </ul>
+                </header>{/block:Date}
+               
+                <!-- START OF POST CONTENT -->
+                <section class="post-content">
+               
+                    <!-- TEXT POST -->
+                    {block:Text}
+                    <div class="post-body">
+                        {block:Title}<h1 class="post-title">{Title}</h1>{/block:Title}
+                        <div class="caption {block:Title}has-title{/block:Title}">{Body}</div>
+                    </div>
+                    {/block:Text}
+               
+                    <!-- PHOTO POST -->
+                    {block:Photo}
+                    <div class="post-media">{LinkOpenTag}<img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" width="{select:Post Width}" style="display:block;" />{LinkCloseTag}</div>
+                    {block:Caption}<div class="post-body"><div class="caption">{Caption}</div></div>{/block:Caption}
+                    {/block:Photo}
+               
+                    <!-- PHOTOSET -->
+                    {block:Photoset}
+                    <div class="post-media">
+                        <div class="photo-slideshow" id="photoset_{PostID}" data-layout="{PhotosetLayout}">
+                            {block:Photos}<div class="photo-data">
+                                <div class="pxu-photo">
+                                    <img src="{PhotoURL-HighRes}" width="{PhotoWidth-500}" height="{PhotoHeight-500}" data-highres="{PhotoURL-HighRes}" data-width="{PhotoWidth-HighRes}" data-height="{PhotoHeight-HighRes}" />
+                                </div><!-- pxu-photo -->
+                                <a class="tumblr-box" rel="post-{PostID}" href="{PhotoURL-HighRes}"></a>
+                            </div><!-- photo-data -->{/block:Photos}
+                        </div><!-- photo-slideshow-->
+                    </div>
+                    {block:Caption}<div class="post-body"><div class="caption">{Caption}</div></div>{/block:Caption}
+                    {block:ContentSource}<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->{/block:ContentSource}
+                    {/block:Photoset}
+               
+                    <!-- VIDEO POST -->
+                    {block:Video}
+                    <div class="post-media">
+                        <div class="video" style="margin-bottom:-5px;">{Video-500}</div>
+                    </div>
+                    {block:Caption}<div class="post-body"><div class="caption">{Caption}</div></div>{/block:Caption}
+                    {/block:Video}
+               
+                    <!-- AUDIO POST -->
+                    {block:Audio}
+                    <div class="post-media" style="border:none">
+                        <div class="width_fix">{AudioEmbed-500}</div>
+                    </div>
+                    {block:Caption}<div class="post-body"><div class="caption">{Caption}</div></div>{/block:Caption}
+                    {/block:Audio}
+               
+                    <!-- LINK POST -->
+                    {block:Link}
+                    <div class="post-media" style="border:none">
+                        <a href="{Url}" target="_blank" class="link-button">
+                            {block:Thumbnail}<div class="thumbnail"><img src="{Thumbnail}" width="{select:Post Width}" /></div>{/block:Thumbnail}
+                            <div class="info-container">
+                                {block:Host}<div class="publisher-container {block:Thumbnail}if-thumbnail{/block:Thumbnail}"><div class="publisher">{Host}</div></div>{/block:Host}
+                                <div class="title">{Name}</div>
+                                {block:Excerpt}<div class="excerpt">{Excerpt}</div>{/block:Excerpt}
+                                {block:Author}<div class="author">{Author}</div>{/block:Author}
+                            </div><!-- INFO CONTAINER -->
+                        </a>
+                    </div>
+                    {block:Description}<div class="post-body"><div class="caption">{Description}</div></div>{/block:Description}
+                    {/block:Link}
+               
+                    <!-- QUOTE POST -->
+                    {block:Quote}
+                    <div class="post-body">
+                        <div class="quotes">
+                            <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                            {Quote}
+                            <svg class="icon icon-quote-right"><use xlink:href="#icon-quote-right"></use></svg>
+                        </div>
+                        {block:Source}<div class="caption" style="margin-bottom:0px;">— {Source}</div>{/block:Source}
+                    </div>
+                    {/block:Quote}
+               
+                    <!-- CHAT POST -->
+                    {block:Chat}
+                    <div class="post-body">
+                        {block:Title}<h1 class="posttitle">{Title}</h1>{/block:Title}
+                        <ul class="chat {block:Title}has-title{/block:Title}">
+                            {block:Lines}<li class="user_{UserNumber}">{block:Label}<span class="label">{Label}</span>{/block:Label}&nbsp;{Line}</li>{/block:Lines}
+                        </ul>
+                    </div>
+                    {/block:Chat}
+               
+                    <!-- ANSWER -->
+                    {block:Answer}
+                    <div class="post-body">
+                        <div class="askimg"><img src="{AskerPortraitURL-48}"></div>
+                        <div class="asker"><span>{Asker}</span><br>sent a message</div>
+                        <div class="question">{Question}</div>
+                        <div class="caption">{Answer}</div>
+                    </div>
+                    {/block:Answer}
+               
+                </section>
+                <!-- END OF POST CONTENT -->
+               
+                <!-- TAGS -->
+                {block:HasTags}<footer class="post-tags">
+                    <span class="lnr lnr-bookmark">Tagged as</span> {block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}
+                </footer>{/block:HasTags}
+               
+            </article>
+            <!-- END OF A POST -->
+           
+            <!-- POST NOTES -->
+            {block:PostNotes}<article class="postnotes">{PostNotes}</article>{/block:PostNotes}
+           
+            {/block:Posts}<!-- END OF ALL POSTS -->
+            
+            <!--      DO NO REMOVE      DO NOT REMOVE       DO NOT REMOVE      -->
+            <footer id="blog-footer">Theme by <a href="http://roxiestheme.tumblr.com">roxiestheme</a> • Powered by <a href="http://tumblr.com">Tumblr</a></footer>
+            <!--      DO NO REMOVE      DO NOT REMOVE       DO NOT REMOVE      -->
+       
+        </div><!-- POSTS CONTAINER -->
+       
+    </div>
+    <!-- END OF MAIN CONTENT -->
+    
+    <!--------------------->
+    <!--------------------->
+    <!--------------------->
+ 
+    <!-- SVGS -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" display="none">
+        <defs>
+            <symbol id="icon-quote-left" viewBox="0 0 33 32">
+                <title>quote</title>
+                <path class="path1" d="M16.025 19.192c-0.133-3.75-3.258-7.225-7.133-7.675-1.475-0.167-3.767 0.483-4.767 1.167-0.4 0.083-0.6 0.225-0.717-0.4 3.433-6.633 11.342-6.625 11.342-6.625v-0.917c-8.058-1.325-17.025 8.842-14.225 17 1.333 3.875 5.117 6.25 8.792 5.508 3.85-0.783 6.842-4.367 6.708-8.058zM7.925 25.9c-3.708-0.050-6.492-2.958-6.408-6.692 0.092-3.683 3.083-6.458 6.792-6.3 3.475 0.15 6.183 2.975 6.2 6.458 0.025 3.633-2.942 6.583-6.583 6.533z"></path>
+                <path class="path2" d="M33.025 19.192c-0.133-3.75-3.258-7.225-7.133-7.675-1.475-0.167-3.767 0.483-4.767 1.167-0.4 0.083-0.6 0.225-0.717-0.4 3.433-6.633 11.342-6.625 11.342-6.625v-0.917c-8.058-1.325-17.025 8.842-14.225 17 1.333 3.875 5.117 6.25 8.792 5.508 3.85-0.783 6.842-4.367 6.708-8.058zM24.925 25.9c-3.708-0.050-6.492-2.958-6.408-6.692 0.092-3.683 3.083-6.458 6.792-6.3 3.475 0.15 6.183 2.975 6.2 6.458 0.033 3.633-2.942 6.583-6.583 6.533z"></path>
+            </symbol>
+            <symbol id="icon-quote-right" viewBox="0 0 33 32">
+                <title>quote2</title>
+                <path class="path1" d="M17.006 12.808c0.133 3.75 3.258 7.225 7.133 7.675 1.475 0.167 3.767-0.483 4.767-1.167 0.4-0.083 0.6-0.225 0.717 0.4-3.433 6.633-11.342 6.625-11.342 6.625v0.917c8.058 1.325 17.025-8.842 14.225-17-1.333-3.875-5.117-6.25-8.792-5.508-3.85 0.783-6.842 4.367-6.708 8.058zM25.106 6.1c3.708 0.050 6.492 2.958 6.408 6.692-0.092 3.683-3.083 6.458-6.792 6.3-3.475-0.15-6.183-2.975-6.2-6.458-0.025-3.633 2.942-6.583 6.583-6.533z"></path>
+                <path class="path2" d="M0.006 12.808c0.133 3.75 3.258 7.225 7.133 7.675 1.475 0.167 3.767-0.483 4.767-1.167 0.4-0.083 0.6-0.225 0.717 0.4-3.433 6.633-11.342 6.625-11.342 6.625v0.917c8.058 1.325 17.025-8.842 14.225-17-1.333-3.875-5.117-6.25-8.792-5.508-3.85 0.783-6.842 4.367-6.708 8.058zM8.106 6.1c3.708 0.050 6.492 2.958 6.408 6.692-0.092 3.683-3.083 6.458-6.792 6.3-3.475-0.15-6.183-2.975-6.2-6.458-0.033-3.633 2.942-6.583 6.583-6.533z"></path>
+            </symbol>
+        </defs>
+    </svg>
+    
+</body>
+</html>
